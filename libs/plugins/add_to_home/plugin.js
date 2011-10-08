@@ -1,7 +1,8 @@
 /**
  * InstallToHome [plugin]
  * by MovableApp.com
- *
+ * 
+ * http://www.movableapp.com/2011/10/plugin-add-to-home/
  */
 
 Ext.ns('MovableApp.plugins');
@@ -15,7 +16,7 @@ MovableApp.plugins.AddToHome = Ext.extend(Object,{
 	delay:					100,
 	animation:				Ext.anims.pop,
 	
-	cls:					'x-install-web-app-panel',
+	cls:					'x-addtohome-panel',
 	modal:					true,
 	hideOnMaskTap:			true,
 	styleHtmlContent: 		true,
@@ -49,8 +50,8 @@ MovableApp.plugins.AddToHome = Ext.extend(Object,{
 	
 	contentScroll:			true,
 	contentHtml: 			'<p>Hi guy,<br>this is a WebApp and you can add it to your home following these simple instructions:</p>' +
-							'<p><span class="x-install-web-app-step1"></span></p>' + 
-							'<p><span class="x-install-web-app-step2"></span></p>' + 
+							'<p><span class="x-addtohome-step1"></span></p>' + 
+							'<p><span class="x-addtohome-step2"></span></p>' + 
 							'',
 	
 	
@@ -224,7 +225,7 @@ MovableApp.plugins.AddToHome = Ext.extend(Object,{
 		if ( !this.arrow ) {
 			
 			// Setup arrow's class from local configuration and decline it for tablet (rotate).
-			var arrowCls = 'x-install-web-app-arrow';
+			var arrowCls = 'x-addtohome-arrow';
 			if ( !Ext.is.Phone ) arrowCls += ' '+arrowCls+'-tablet';
 			
 			this.arrow = this.installPanel.getEl().createChild({

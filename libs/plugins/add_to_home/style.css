@@ -1,17 +1,12 @@
-/*
-.x-install-web-app-panel {
-	position:absolute;
-	
-	top:auto !important;
-	bottom:20px !important;
-	left:50px;
-
-}
-*/
+/**
+ * InstallToHome [plugin]
+ * by MovableApp.com
+ * 
+ * http://www.movableapp.com/2011/10/plugin-add-to-home/
+ */
 
 
-
-.x-install-web-app-step1 {
+.x-addtohome-step1 {
 	display:block;
 	width:210px;
 	height:30px;
@@ -28,7 +23,7 @@
 
 
 
-.x-install-web-app-step2 {
+.x-addtohome-step2 {
 	display:block;
 	width:210px;
 	height:205px;
@@ -44,7 +39,7 @@
 }
 
 
-.x-install-web-app-arrow {
+.x-addtohome-arrow {
 	position:absolute;
 	top:0;
 	left:0;
@@ -56,6 +51,6 @@
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAgCAYAAACYTcH3AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAYdEVYdENyZWF0aW9uIFRpbWUAMjEtMDktMjAxMSukHvYAAAEoSURBVFiF7dbRbcIwFIXh37zBELBHYZcyQTNQmSGMECZgDLoBPETK7UNMGoFvYhzb9CFHQiIyuv5IcpQYEcEYcwWWvC83EVkt7MEekDdBBPhsv0lnKO1C7k/ZOXoYgEtmyE93ehyYNdBkgjR2P0TEiQEoMmGK/lnRMADnxJBzf7M7xthqu0Cp6n4DVo8YgIXr1zZ72n8RM2LnKqvuy3TPkbiXp9QMQ/dMP7HqftE2eAWzBuqJkBrYxMDA9LoXzyPDMQBVIKQaGxyCgbbur0CuPkNDMR/4Py4aYJsSA/DtiTn4DpyCgfG6qzVOgdmg173GPo1zYQC+FMxgjVNh4Lnup5AhsTDwV3evGqfG7GjvE68aD2FMBEy0DL3PZM+M0TJjtMwYLf8K8wsU9dzS8VXLcQAAAABJRU5ErkJggg==) 0 -13px;
 }
 
-.x-install-web-app-arrow-tablet {
+.x-addtohome-arrow-tablet {
 	-webkit-transform:rotate(180deg);
 }
