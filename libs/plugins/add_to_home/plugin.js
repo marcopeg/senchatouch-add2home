@@ -63,7 +63,7 @@ MovableApp.plugins.AddToHome = Ext.extend(Object,{
 		
 		Ext.apply(this,config);
 		
-		MovableApp.plugins.AddToHome.superclass.constructor.apply(this,arguments);	
+		MovableApp.plugins.AddToHome.superclass.constructor.apply(this);
 		
 	},
 	
